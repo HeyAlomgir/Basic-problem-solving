@@ -1,9 +1,4 @@
-function ReverseIN () {
-     const Alomgr = "hello";
-    const reverse = Alomgr.split("").reverse().join("");
-    console.log(reverse)
-    
+function reverseStr(str){
+    return str.split("").reverse().join("");
 }
-ReverseIN()
-
-export default ReverseIN;
+console.log(reverseStr("Alomgir"))
